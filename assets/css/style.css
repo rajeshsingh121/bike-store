@@ -393,7 +393,185 @@ header {
     box-shadow: 0 0 10px #ffffffa5;
 }
 
+/* footer start here  */
 
+footer {
+    width: 100%;
+    float: left;
+    padding: 50px 0;
+}
+
+.footer-row {
+    width: 100%;
+    float: left;
+    display: flex;
+    gap: 20px;
+}
+
+.footer-list {
+    width: 25%;
+    float: left;
+}
+
+ul.footer-ul {
+    width: 100%;
+    float: left;
+}
+
+.footer-logo {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.footer-ul li p {
+    margin-bottom: 20px;
+}
+
+.social {
+    width: 100%;
+    float: left;
+    display: flex;
+    gap: 25px;
+    margin-top: 10px;
+}
+
+.social a {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 42px;
+    border: 1px solid #8787878c;
+    border-radius: 50%;
+    color: #010f1c;
+    transition: .4s;
+}
+
+.social a:hover {
+    background: #f5354e;
+    color: #fff;
+    box-shadow: 0 0 10px #00000073;
+    border: 1px solid #fff;
+}
+
+.social a i {
+    font-size: 20px;
+}
+
+.footer-ul li h3 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.footp {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+
+.foota li a {
+    color: #2A4696;
+    margin-bottom: 10px;
+    font-weight: 500;
+    display: inline-block;
+    transition: .2s;
+}
+
+.foota li a:hover {
+    color: #f5354e;
+    transform: translateX(10px);
+}
+
+.foota li {
+    margin-bottom: 10px;
+}
+
+.input {
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-top: 20px;
+}
+
+.input input {
+    padding: 10px 20px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #68686891;
+    width: 100%;
+}
+
+.input input:focus-visible {
+    outline: 1px solid #f5354e;
+}
+
+.input-arrow {
+    position: absolute;
+    width: 40px;
+    height: 41px;
+    background: #f5354e;
+    text-align: center;
+    line-height: 40px;
+    top: 0;
+    right: 0;
+    border-radius: 0 5px 5px 0;
+}
+
+.input-arrow i {
+    font-size: 18px;
+    color: #fff;
+}
+
+
+/* .footer bottom :start */
+
+.footer-bottom {
+    width: 100%;
+    float: left;
+    padding: 5px 0;
+    background: #2A4696;
+}
+
+.bottom-row {
+    width: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.bottom-left {
+    width: 50%;
+    float: left;
+}
+
+.bottom-left p {
+    color: #fff;
+    font-size: 12px;
+}
+
+.bottom-right {
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+.bottom-right a {
+    color: #fff;
+    margin-left: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.logo {
+    width: 200px;
+    height: 50px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 
 
